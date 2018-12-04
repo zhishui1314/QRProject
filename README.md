@@ -1,6 +1,7 @@
 # QRProject
 
 所需权限
+
   <uses-permission android:name="android.permission.CAMERA" />
     <uses-permission android:name="android.permission.FLASHLIGHT" />
     <uses-feature android:name="android.hardware.camera" />
@@ -11,6 +12,7 @@
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     
 扫描二维码代码
+
          Intent intent = new Intent(MainActivity.this, CaptureActivity.class);
                                 /*ZxingConfig是配置类
                                  *可以设置是否显示底部布局，闪光灯，相册，
