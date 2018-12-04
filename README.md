@@ -11,7 +11,7 @@
     <uses-permission android:name="android.permission.WAKE_LOCK" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-   扫描二维码代码
+扫描二维码代码
          Intent intent = new Intent(MainActivity.this, CaptureActivity.class);
                                 /*ZxingConfig是配置类
                                  *可以设置是否显示底部布局，闪光灯，相册，
