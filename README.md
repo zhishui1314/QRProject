@@ -31,8 +31,9 @@
 //                                config.setFullScreenScan(false);//是否全屏扫描  默认为true  设为false则只会在扫描框中扫描
         intent.putExtra(Constant.INTENT_ZXING_CONFIG, config);
         startActivityForResult(intent, 101);
-       ``` 
-  ## 回调
+        
+   
+       
          @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
@@ -44,8 +45,9 @@
             }
         }
     }
+        ```    
+    ## 生成二维码
     
-    生成二维码
      String contentEtString = "测试二维码";
 
         Bitmap bitmap = null;
