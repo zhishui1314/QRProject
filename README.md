@@ -1,6 +1,6 @@
 # QRProject
 
->所需权限
+> 所需权限
 
   <uses-permission android:name="android.permission.CAMERA" />
     <uses-permission android:name="android.permission.FLASHLIGHT" />
@@ -11,7 +11,8 @@
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
    
-## 扫描二维码代码
+   
+> 扫描二维码代码
 
          Intent intent = new Intent(MainActivity.this, CaptureActivity.class);
                                 /*ZxingConfig是配置类
@@ -45,7 +46,7 @@
         }
     } 
     
-## 生成二维码
+> 生成二维码
     
      String contentEtString = "测试二维码";
 
