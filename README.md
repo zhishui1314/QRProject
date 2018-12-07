@@ -22,13 +22,15 @@
                                  * 也可以不传这个参数
                                  * */
         ZxingConfig config = new ZxingConfig();
-//                                config.setPlayBeep(false);//是否播放扫描声音 默认为true
-//                                config.setShake(false);//是否震动  默认为true
-//                                config.setDecodeBarCode(false);//是否扫描条形码 默认为true
+                               /*
+                               config.setPlayBeep(false);//是否播放扫描声音 默认为true
+                               config.setShake(false);//是否震动  默认为true
+                               config.setDecodeBarCode(false);//是否扫描条形码 默认为true*/
+
         config.setReactColor(R.color.colorPrimaryDark);//设置扫描框四个角的颜色 默认为白色
-//                                config.setFrameLineColor(R.color.colorPrimaryDark);//设置扫描框边框颜色 默认无色
+                              //config.setFrameLineColor(R.color.colorPrimaryDark);//设置扫描框边框颜色 默认无色
         config.setScanLineColor(R.color.colorAccent);//设置扫描线的颜色 默认白色
-//                                config.setFullScreenScan(false);//是否全屏扫描  默认为true  设为false则只会在扫描框中扫描
+                                //config.setFullScreenScan(false);//是否全屏扫描  默认为true  设为false则只会在扫描框中扫描
         intent.putExtra(Constant.INTENT_ZXING_CONFIG, config);
         startActivityForResult(intent, 101);
         
