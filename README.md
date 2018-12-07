@@ -1,6 +1,6 @@
 # QRProject
 
-## 所需权限
+>所需权限
 
   <uses-permission android:name="android.permission.CAMERA" />
     <uses-permission android:name="android.permission.FLASHLIGHT" />
