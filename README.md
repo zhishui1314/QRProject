@@ -1,4 +1,18 @@
 # QRProject
+## 如何使用它
+> Step 1.先在 build.gradle(Project:XXXX) 的 repositories 添加:
+    allprojects {
+        repositories {
+            ...
+            maven { url "https://jitpack.io" }
+        }
+    }
+  }
+> Step 2. 然后在 build.gradle(Module:app) 的 dependencies 添加:
+dependencies {
+	        implementation 'com.github.zhishui1314:QRProject:1.0'
+	}
+  }
 
 > 所需权限
 
